@@ -7,6 +7,7 @@
   --secondary-black-color: #000000;
   --background-dark-color: #2f303a;
   --background-light-color: #f5f4fa;
+  --background-blue-color: #188CE8;
 }
 
 body {
@@ -58,6 +59,10 @@ body {
   color: var(--main-color);
 }
 
+.contacts-link.link {
+  color: var(--text-color);
+}
+
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
@@ -100,8 +105,7 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--main-color);
-  background-color: var(--background-light-color);
+  background-color: var(--background-blue-color);
 }
 /* -----List of Merits----- */
 .merits-title {
