@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
   background-color: var(--main-white-color);
 }
 
@@ -74,12 +74,86 @@ body {
 }
 
 /* -----Hero Section----- */
-/* -----List of Merits----- */
-/* -----What We Do----- */
-/* -----Our Team----- */
+.hero {
+  background-color: var(--background-dark-color);
+}
 
-/* -----Portfolio Section----- */
-.button {
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-white-color);
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--main-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--main-color);
+  background-color: var(--background-light-color);
+}
+/* -----List of Merits----- */
+.merits-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.merits-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/* -----What We Do----- */
+.activities-title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+/* -----Our Team----- */
+.team {
+  background-color: var(--background-light-color);
+}
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+.team-member-role {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/* -----Portfolio Page----- */
+.filter-button {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -87,12 +161,27 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-color);
   background-color: var(--background-light-color);
+  cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--main-white-color);
   background-color: var(--accent-color);
+}
+
+.portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
 /* -----Footer----- */
 .footer {
